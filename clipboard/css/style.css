@@ -1,0 +1,643 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --StrongCyan: hsl(171, 66%, 44%);
+    --LightBlue: hsl(233, 100%, 69%);
+    --DarkGrayishBlue: hsl(210, 10%, 33%);
+    --GrayishBlue: hsl(201, 11%, 66%);
+
+}
+
+.body{
+    line-height: 1.4;
+    font-family:  "Bai Jamjuree";
+    font-size: 18px;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+ .hbotton1:hover{
+    background-color:#5dccbb;
+    cursor: pointer;
+}
+
+ .hbotton2:hover{
+    background-color:#8797fd ;
+    cursor:pointer;
+ }
+
+ .lists li:hover{
+    color: var(--StrongCyan);
+    cursor:pointer;
+ }
+
+ .lists p:hover{
+    color: var(--StrongCyan);
+    cursor:pointer;
+ }
+
+ .socialmedia i:hover{
+    color: var(--StrongCyan);
+    cursor:pointer;
+ }
+
+
+.logopanel{
+    width: 100%;
+    background: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    
+} 
+
+.logo{
+    padding-top: 128px;
+    text-align: center;
+}
+
+.logo img{
+    width: 128px;
+}
+
+.header{
+    padding-top:65px ;
+    margin: 0 auto;
+    text-align: center;
+    width:650px;
+}
+
+
+.header-content h2{
+    font-family:  "Bai Jamjuree";
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-bottom: 36px;  
+}
+
+.header-content p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    padding-bottom: 40px;
+    line-height: 1.5 ;
+}
+
+.hbotton1{
+    width: 230px;
+    height: 48px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--StrongCyan);
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+    box-shadow: 0px 0px 6px 1px var(--StrongCyan) ;
+}
+
+.hbotton2{
+    width: 230px;
+    height: 48px;
+    border: none;
+    background-color: var(--LightBlue);
+    border-radius: 50px;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+    box-shadow: 0px 0px 6px 1px var(--LightBlue) ;
+
+
+}
+
+.header-botton{
+    width: 480px;
+    margin: 0 auto;
+}
+.button1{
+    float: left;
+}
+
+.button2{
+    float: right;
+}
+
+.keeptrack{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 90px;
+}
+
+.keeptrack h2{
+    font-family:  "Bai Jamjuree";
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-bottom: 36px;  
+}
+
+.keeptrack p {
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    line-height: 1.5 ;
+}
+
+.monitor{
+    width: 100%;
+}
+
+.monitor-img{
+    width: 50%;
+    float: left;
+    position: relative;
+    left: -32px;
+}
+
+.monitor-feature{
+    width: 50%;
+    float: left;
+    padding-top:70px ;
+    padding-left: 86px;
+    padding-right: 194px;
+}
+
+.quicksearch h2, .icloud h2, .completehistory h2{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-bottom: 12px;
+}
+
+.quicksearch p, .icloud p, .completehistory p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    line-height: 1.5 ;
+    padding-bottom: 75px;
+}
+
+.alldevice{
+    padding-top: 160px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.access h2{
+    font-family:  "Bai Jamjuree";
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-bottom: 36px; 
+}
+
+.access p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 1.5 ;
+}
+
+.access {
+    width: 650px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.superchange{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.superchange h2{
+    font-family:  "Bai Jamjuree";
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-bottom: 36px; 
+}
+
+.superchange p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    line-height: 1.5 ;
+
+}
+
+.workflow{
+    width: 100%;
+    padding-top: 84px;
+    padding-left: 174px;
+    padding-right: 174px;
+}
+
+.blacklists{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.snippets{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top:10px;
+}
+
+.preview{
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+
+.blacklists h3, .snippets h3, .preview h3{
+    font-family:  "Bai Jamjuree";
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.blacklists p, .snippets p, .preview p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    line-height: 1.5 ;
+}
+
+.otherbrands{
+    width: 75%;
+    padding-top: 156px;
+    margin: 0 auto;
+
+}
+
+.google, .ibm, .microsoft, .hewlett, .vector{
+    width: 20%;
+}
+
+.google, .ibm, .microsoft, .hewlett{
+    float: left;
+}
+
+.vector{
+    float: right;
+}
+
+.otherbrands div img{
+    margin-left: 50px;
+
+} 
+
+.clipboard{
+    padding-top:156px ;
+    padding-bottom:156px;
+    margin: 0 auto;
+    text-align: center;
+    width:650px;
+}
+
+
+.cb-content h2{
+    font-family:  "Bai Jamjuree";
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--DarkGrayishBlue); 
+    padding-bottom: 36px;  
+}
+
+.cb-content p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    padding-bottom: 40px;
+    line-height: 1.5 ;
+}
+
+footer{
+    height: 145px;
+    background-color:#f5f6f8;
+}
+.cb-botton{
+    width: 480px;
+    margin: 0 auto;
+}
+
+.closer{
+    width: 100%;
+    padding-top: 50px;
+}
+
+.logo-closer{
+    width: 20%;
+    float: left;
+    padding-left: 125px;
+   
+}
+
+.logo-closer img{
+    width: 50px;
+}
+.lists{
+    width: 50%;
+    float: left;
+
+}
+
+.list1, .list2{
+    float:left ;
+    width: 35%;
+}
+
+.list1 li, .list2 li, .guide p{
+    font-family:  "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: 350;
+    color: var(--DarkGrayishBlue);
+    padding-bottom: 10px;
+    line-height: 1.5 ;
+
+}
+
+.guide{
+    float: right;
+    width: 30%;
+}
+.socialmedia{
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.fb, .twitter{
+    float: left;
+}
+
+.socialmedia div i{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) and (min-width:375px) {
+    body {
+        width: 100%;
+    }
+
+    .hbotton1:hover{
+        background-color:#5dccbb;
+        cursor: pointer;
+    }
+    
+     .hbotton2:hover{
+        background-color:#8797fd ;
+        cursor:pointer;
+     }
+    
+     .lists li:hover{
+        color: var(--StrongCyan);
+        cursor:pointer;
+     }
+    
+     .lists p:hover{
+        color: var(--StrongCyan);
+        cursor:pointer;
+     }
+    
+     .socialmedia i:hover{
+        color: var(--StrongCyan);
+        cursor:pointer;
+     }
+     .logopanel{
+        width: 100%;
+        background: url(/images/bg-header-desktop.png);
+        background-size: cover;
+        
+    } 
+    
+    .logo{
+        padding-top: 128px;
+        text-align: center;
+    }
+    
+    .logo img{
+        width: 128px;
+    }
+
+    .header{
+        padding-top:65px ;
+        width:350px;
+    }
+
+    .header-botton{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .button1, .button2{
+        align-items: center;
+        padding-bottom: 30px;
+        float: none;
+    }
+    .keeptrack{
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 120px;
+        padding-bottom: 90px;
+    }
+
+    .monitor{
+        width: 100%;
+    }
+    
+    .monitor-img{
+    width: 350px;
+    float: none;
+    position: relative;
+    left: 32px;
+   }
+
+   .monitor-img img{
+    width: 325px;
+   }
+   .monitor-feature{
+    width: 80%;
+    float: none;
+    padding-top:70px ;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    margin: 0 auto;
+   }
+    
+   .quicksearch h2, .icloud h2, .completehistory h2{
+    padding-bottom: 12px;
+    width: 100%;
+    line-height: 1.5;
+    }
+    .quicksearch p, .icloud p, .completehistory p{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .alldevice{
+        padding-top: 75px;
+        margin: 0 auto;
+        text-align: center;
+        width: 350px;
+    }
+
+    .access{
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    .access h2{
+        width: 350px;
+        padding-bottom: 36px; 
+        line-height: 1.5;
+    }
+    .access p{
+        width: 350px;
+    }
+
+    .devices img{
+        width: 350px;
+    }
+
+    .superchange{
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .superchange h2{
+        line-height: 1.5;
+        padding-bottom: 28px; 
+    }
+
+    .superchange p{
+
+        width: 250px;
+        margin: 0 auto;
+    
+    }
+
+    .workflow{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .blacklists, .snippets, .preview{
+        float: none;
+        width: 100%;
+        padding-bottom:75px ;
+    }
+
+    .otherbrands{
+        width: 100%;
+        padding: 10px 150px 0px 150px;
+    }
+
+    .google, .ibm, .microsoft, .hewlett, .vector{
+        float: none;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .otherbrands div img{
+       margin: 0px ;
+       width: 100%;
+    
+    } 
+
+    .clipboard{
+        padding-top:100px ;
+        padding-bottom:10px;
+        margin: 0 auto;
+        text-align: center;
+        width:350px;
+    }
+    .cb-botton{
+        width: 100%;
+        align-items: center;
+        padding-bottom: 30px;
+        float: none;
+    }
+    footer{
+        height: auto;
+       
+    }
+
+    .closer{
+        
+        padding: 0px 125px 0px 125px;
+    }
+
+    .logo-closer{
+        width: 100%;
+        float: none;
+        padding-left: 0px;
+       text-align: center;
+       padding-bottom: 10px;
+       
+    }
+
+    .lists{
+        width: 100%;
+        float: none;
+        text-align: center;
+    
+    }
+
+    .list1, .list2, .guide{
+        float:none ;
+        width: 100%;
+    }
+
+    .socialmedia{
+        width: 100%;
+        float: none;
+        padding-top: 20px;
+        padding-left:0px;
+    }
+
+    .socialmedia div i{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    
+
+
+    
+  }
+  
+
+
+
+
+
+
